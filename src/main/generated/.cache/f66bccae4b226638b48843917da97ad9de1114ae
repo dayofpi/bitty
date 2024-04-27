@@ -1,0 +1,24 @@
+// 1.20.5	2024-04-26T21:47:02.4774587	Bitty/Model Definitions
+271fd03cb9cd5f6534b1d63cb311790033b8d9e8 assets\bitty\models\item\hide.json
+45fea1f176513acf2117a832a9a388a812becbbb assets\bitty\models\item\reed_seeds.json
+50c7ee52c891d4640fed0f1df92dc5f08bc5cf70 assets\bitty\models\block\reed_crop_stage0.json
+f4b69efa19b4c288a4391e6017c4a4265747a448 assets\bitty\models\block\luminous_reeds_bottom.json
+480edc748e5e058e1df8528985fb364f19235101 assets\bitty\models\item\pelt.json
+759debe7bccf5abc68163dd1e980963c63933902 assets\bitty\models\block\thatch.json
+8eb608156312b5e15e404e642b0c46a678803153 assets\bitty\models\block\luminous_reeds_top.json
+e6c3220816ccf50eff2fc12652388887a1157427 assets\bitty\models\item\reeds.json
+0f66bcaeb444ae820b8cd0dfa62132405bf972b8 assets\bitty\models\item\luminous_reeds.json
+f47e7414549e265d3b7a852f0357e793911f0d19 assets\bitty\blockstates\luminous_reeds.json
+2ce519bfddb9b28f47e9c6ca6229b7db29212150 assets\bitty\models\block\reeds_bottom.json
+8c22a60806223a27a953f6eaaf1150dbf7350972 assets\bitty\blockstates\reed_crop.json
+6d654eed2f30945a8128e79f0a71468d88ffd3ec assets\bitty\models\block\reeds_top.json
+7cf7ea82dc837657551aa3b8ec48b2cc7f89e690 assets\bitty\models\block\thatch_horizontal.json
+87c415133af5a2833bb4ac1df3c6bfd087edb23b assets\bitty\blockstates\reeds.json
+192065c9c511559d2164dbe49bdf1435a8cd11ce assets\bitty\blockstates\thatch.json
+687269c77bbad9d429dcacb46babfd48ae24f20e assets\bitty\models\item\apple_pie.json
+f23d7fa584b45567d4ee06abadcb29086b810925 assets\bitty\models\item\thatch.json
+7c0a4a5370e3ca6c4bcdb09e8b92d21e785802b3 assets\bitty\models\item\calamari.json
+44f3b11684d98c40f14dd0b7513652702cc66dd1 assets\bitty\models\block\reed_crop_stage2.json
+5c2a490c3dcdf8d4a652cb9c7ead83648b47fa41 assets\bitty\models\item\roasted_carrot.json
+3e4a4a549522b297d1e4122afd8b73cc0e4b03ec assets\bitty\models\block\reed_crop_stage1.json
+eae6a8f596f81cfe860b934ff696e34631dc5243 assets\bitty\models\item\cooked_calamari.json

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "bitty:block/thatch_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "bitty:block/thatch"
+    },
+    "axis=z": {
+      "model": "bitty:block/thatch_horizontal",
+      "x": 90
+    }
+  }
+}

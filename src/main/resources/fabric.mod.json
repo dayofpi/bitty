@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bitty",
+	"version": "1.0.0",
+	"name": "Bitty",
+	"description": "A mod made up of little bits.",
+	"authors": [
+		"dayofpi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/bitty/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dayofpi.bitty.Bitty"
+		],
+		"client": [
+			"com.dayofpi.bitty.BittyClient"
+		],
+		"fabric-datagen": [
+			"com.dayofpi.bitty.data.BittyDataGenerator"
+		]
+	},
+	"mixins": [
+		"bitty.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

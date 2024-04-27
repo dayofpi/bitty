@@ -1,0 +1,48 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "bitty:reeds"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_luminous_reeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bitty:luminous_reeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_reeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bitty:reeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bitty:reed_seeds"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_reeds",
+      "has_luminous_reeds"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bitty:reed_seeds"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "bitty:block/reeds_bottom"
+    },
+    "half=upper": {
+      "model": "bitty:block/reeds_top"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "bitty:calamari",
+      "enabled": true
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_calamari": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bitty:calamari"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bitty:cooked_calamari"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_calamari"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bitty:cooked_calamari"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "leather_rework": 1
+      },
+      "model": "bitty:item/leather"
+    }
+  ]
+}

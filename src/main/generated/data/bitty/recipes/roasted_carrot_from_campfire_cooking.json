@@ -1,0 +1,18 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "bitty:roasted_carrots",
+      "enabled": true
+    }
+  ],
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+  "result": {
+    "id": "bitty:roasted_carrot"
+  }
+}

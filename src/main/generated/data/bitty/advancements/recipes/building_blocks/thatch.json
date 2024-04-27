@@ -1,0 +1,37 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "bitty:reeds"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_reeds": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bitty:reeds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bitty:thatch"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_reeds"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bitty:thatch"
+    ]
+  }
+}

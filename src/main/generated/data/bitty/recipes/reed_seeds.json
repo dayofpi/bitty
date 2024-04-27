@@ -1,0 +1,23 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "bitty:reeds"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "bitty:reeds"
+      },
+      {
+        "item": "bitty:luminous_reeds"
+      }
+    ]
+  ],
+  "result": {
+    "count": 3,
+    "id": "bitty:reed_seeds"
+  }
+}
